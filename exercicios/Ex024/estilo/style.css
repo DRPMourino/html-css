@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px; 
+    padding: 0px;
+    /* Faz com que as frases fiquem mais grudadas no canto esquerdo*/
+}
+
+html, body {
+    min-height: 100vh; /*Usado para definir a altura mínima da viewport(a viewport é a porção de área visível de um plano).*/
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;/*define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+    font-variant: small-caps;/* Com essa propriedade você pode alterar as variantes normal e small-caps.*/
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;/* Tirar o sublinhado*/
+    font-weight: bolder;/* Deixar a palavra em negrito*/
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;/* Aparecer o sublinhado quando passar o mouse em cima.*/
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;/*Espaçamento entre as frases.*/
+    padding-left: 30px; /*define uma a distância entre o conteúdo de um elemento e suas bordas para esquerda.*/
+}
+
+section.normal {
+background-color: white;
+color: black;
+}
+
+section.imagem {
+background-color: rgb(169, 153, 153);
+color: white;
+}
+
+section.imagem>p {
+    width: 400px; /* Tamanho da borda da frase*/
+    background-color: rgb(100, 68, 68);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px; /*define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+}
