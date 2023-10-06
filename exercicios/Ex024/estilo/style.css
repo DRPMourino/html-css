@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Bungee&family=Dancing+Script&family=Passions+Conflict&family=Roboto:wght@400;700&family=Sriracha&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
+:root { /*Cria atalhos para coisas que irei utilizar com frequencia durante o projeto*/
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Dancing Script', cursive;
     --fonte3:'Sriracha', cursive;
@@ -57,20 +57,38 @@ section {
     font-size: 3.5vw;
 }
 
-section.normal {
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal { /*section class=normal*/
 background-color: white;
 color: black;
 }
 
-section.imagem {
+section.imagem { /*section class=imagem*/
 background-color: rgb(169, 153, 153);
 color: white;
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473); /*Utilizado para adicionar efeitos de sombra em volta de um elemento*/
+background-size: cover; /*Define o tamanho da imagem de fundo do elemento*/
+background-attachment: fixed; /*Fixa na viewport ou rola com o bloco que a contém.*/
 }
 
-section.imagem>p {
+section.imagem>p { 
     display: inline-block; /*Caixa que se adapta ao tamanho do conteúdo.*/
     padding: 5px; /*Para não ficar colado na caixa.*/
-    background-color: rgb(100, 68, 68);
+    background-color: rgb(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black; /*acrescenta sombras ao texto.*/
+
+}
+
+section#img01 { /*Por papel de fundo.*/
+background-image: url('../imagens/background001.jpg');
+}
+
+section#img02 { /*Por papel de fundo.*/
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 
 footer {
