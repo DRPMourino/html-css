@@ -25,4 +25,7 @@
 <li><a href="https://DRPMourino.github.io/html-css/exercicios/ex021/index.html">Executar o exercicio 021</a></li>
 <li><a href="https://DRPMourino.github.io/html-css/exercicios/ex022/index.html">Executar o exercicio 022</a></li>
 <li><a href="https://DRPMourino.github.io/html-css/exercicios/ex023/index.html">Executar o exercicio 023</a></li>
+<li><a href="https://DRPMourino.github.io/html-css/exercicios/ex024/index.html">Executar o exercicio 024</a></li>
+<li><a href="https://DRPMourino.github.io/html-css/exercicios/ex025/index.html">Executar o exercicio 025</a></li>
+<li><a href="https://DRPMourino.github.io/html-css/exercicios/ex026/index.html">Executar o exercicio 026</a></li>
 <ul>
