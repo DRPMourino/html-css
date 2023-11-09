@@ -1,8 +1,7 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 /* Estilo para impressoras*/
-
-*{
+* {
     margin: 10px;
     padding: 10px;
 }

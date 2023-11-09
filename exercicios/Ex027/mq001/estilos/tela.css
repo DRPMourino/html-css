@@ -1,7 +1,7 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 /* Estilo para telas*/
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
